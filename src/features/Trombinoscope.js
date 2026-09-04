@@ -1,7 +1,10 @@
+import { applyTheme } from './theme.js'
+
 const response = await fetch('/team.json')
 const team = await response.json()
-
 const grid = document.getElementById("teamGrid");
+
+applyTheme()
 
 function MemberCard(member){
 	const card = document.createElement("div")

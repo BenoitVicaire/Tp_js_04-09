@@ -1,6 +1,12 @@
+import { applyTheme } from './theme.js'
+
 const generateBtn=document.getElementById("generateBtn")
 const data = await fetchUser()
 const loader = document.getElementById("loader")
+
+applyTheme()
+loadUser()
+
 
 
 renderUser(data.results[0])
@@ -20,7 +26,6 @@ async function loadUser() {
     }
 }
 
-loadUser()
 
 async function fetchUser() {
     const response = await fetch('https://randomuser.me/api/');
