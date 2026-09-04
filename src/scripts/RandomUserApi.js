@@ -34,7 +34,7 @@ function renderUser(user){
     const adress = document.getElementById("cardAdress")
     const phone = document.getElementById("cardPhone")
     const picture = document.getElementById("cardPicture")
-
+    console.log(name)
     name.textContent = user.name.first + " " + user.name.last
     email.textContent = user.email
     adress.textContent = user.location.city + ", " + user.location.country

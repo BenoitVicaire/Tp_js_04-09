@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Dupont",
+        "role": "Développeuse Frontend",
+        "avatar": "https://i.pravatar.cc/150?img=1",
+        "bio": "Passionnée par React et les interfaces utilisateur modernes. Alice transforme les designs en expériences web interactives.",
+        "skills": ["React", "TypeScript", "CSS3", "Vite"],
+        "experience": "5 ans",
+        "location": "Paris, France",
+        "email": "alice.dupont@example.com"
+    },
+    {
+        "id": 2,
+        "name": "Thomas Martin",
+        "role": "Développeur Backend",
+        "avatar": "https://i.pravatar.cc/150?img=3",
+        "bio": "Expert en architecture API REST et microservices. Thomas conçoit des systèmes robustes et scalables.",
+        "skills": ["Node.js", "PostgreSQL", "Docker", "Express"],
+        "experience": "7 ans",
+        "location": "Lyon, France",
+        "email": "thomas.martin@example.com"
+    },
+    {
+        "id": 3,
+        "name": "Sarah Leclerc",
+        "role": "UX/UI Designer",
+        "avatar": "https://i.pravatar.cc/150?img=5",
+        "bio": "Sara place l'utilisateur au centre de chaque décision de design. Spécialisée en design systems et prototypage.",
+        "skills": ["Figma", "Adobe XD", "Tailwind", "Prototypage"],
+        "experience": "4 ans",
+        "location": "Bordeaux, France",
+        "email": "sarah.leclerc@example.com"
+    },
+    {
+        "id": 4,
+        "name": "Karim Benzara",
+        "role": "DevOps Engineer",
+        "avatar": "https://i.pravatar.cc/150?img=8",
+        "bio": "Karim automatise et optimise les pipelines CI/CD. Il assure la disponibilité et la performance des infrastructures.",
+        "skills": ["Kubernetes", "Terraform", "AWS", "GitHub Actions"],
+        "experience": "6 ans",
+        "location": "Toulouse, France",
+        "email": "karim.benzara@example.com"
+    },
+    {
+        "id": 5,
+        "name": "Lucie Bernard",
+        "role": "Développeuse Fullstack",
+        "avatar": "https://i.pravatar.cc/150?img=9",
+        "bio": "Lucie maîtrise aussi bien le front que le back. Elle aime relever des défis techniques complexes.",
+        "skills": ["Vue.js", "Laravel", "MySQL", "REST API"],
+        "experience": "3 ans",
+        "location": "Nantes, France",
+        "email": "lucie.bernard@example.com"
+    },
+    {
+        "id": 6,
+        "name": "Maxime Petit",
+        "role": "Data Scientist",
+        "avatar": "https://i.pravatar.cc/150?img=12",
+        "bio": "Maxime transforme les données brutes en insights exploitables. Passionné par le machine learning et la visualisation.",
+        "skills": ["Python", "TensorFlow", "Pandas", "SQL"],
+        "experience": "4 ans",
+        "location": "Lille, France",
+        "email": "maxime.petit@example.com"
+    },
+    {
+        "id": 7,
+        "name": "Emma Rousseau",
+        "role": "Chef de Projet",
+        "avatar": "https://i.pravatar.cc/150?img=16",
+        "bio": "Emma coordonne les équipes et veille à la livraison des projets dans les délais. Certifiée Scrum Master.",
+        "skills": ["Agile", "Jira", "Communication", "Roadmapping"],
+        "experience": "8 ans",
+        "location": "Strasbourg, France",
+        "email": "emma.rousseau@example.com"
+    },
+    {
+        "id": 8,
+        "name": "Nathan Girard",
+        "role": "Développeur Mobile",
+        "avatar": "https://i.pravatar.cc/150?img=15",
+        "bio": "Spécialisé en développement cross-platform, Nathan crée des apps mobiles fluides et performantes.",
+        "skills": ["React Native", "Flutter", "Swift", "Firebase"],
+        "experience": "5 ans",
+        "location": "Rennes, France",
+        "email": "nathan.girard@example.com"
+    },
+    {
+        "id": 9,
+        "name": "Camille Moreau",
+        "role": "Développeuse Backend",
+        "avatar": "https://i.pravatar.cc/150?img=20",
+        "bio": "Camille conçoit des architectures backend solides avec une expertise en sécurité et en performance.",
+        "skills": ["Java", "Spring Boot", "Redis", "MongoDB"],
+        "experience": "6 ans",
+        "location": "Marseille, France",
+        "email": "camille.moreau@example.com"
+    }
+]

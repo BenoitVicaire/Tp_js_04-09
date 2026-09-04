@@ -2,35 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="/src/main.js" defer></script>
+    <script type="module" src="/src/scripts/main.js" defer></script>
 
     <title>tp-js</title>
   </head>
-  <body>
-    <button class="btn btn-primary" id="generateBtn">Generate User</button>
-    <!-- Loader -->
-    <section>
-      <span class="loading loading-spinner" id="loader"></span>
-      <!-- Card -->
-      <div class="card bg-base-200 w-96 shadow-sm" id="fullCard">
-        <figure>
-          <img
-            id="cardPicture"
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="profilPicture"
-            width="200"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title" id="cardName">Name</h2>
-          <p id="cardEmail">Email</p>
-          <p id="cardAdress">Adresse</p>
-          <p id="cardPhone">Télephone</p>
-        </div>
-      </div>
-    </section>
-    <!--  -->
-  </body>
+ <body class="min-h-screen flex flex-col items-center justify-center gap-6">
+  <h1 class="text-3xl font-bold">Tp JavaScript - Révision</h1>
+  
+  <div class="card bg-base-200 w-80 shadow-sm">
+    <div class="card-body">
+      <h2 class="card-title text-sm text-base-content/60 uppercase tracking-wide">Exercices</h2>
+      <ul class="space-y-2">
+        <li>
+          <a class="btn btn-outline w-full justify-start" href="pages/randomUser.html">
+            Exo 1 — Random User
+          </a>
+        </li>
+        <li>
+          <a class="btn btn-outline w-full justify-start" href="pages/Trombinoscope.html">
+            Exo 2 — Trombinoscope
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
 </html>
